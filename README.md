@@ -3,7 +3,7 @@ This project was made while doing The Odin Project. </br>
 The page is a simple styled HTML page with form elements, used to emulate a real sign-up page with required input elements and checks for correct patterns (password written correctly twice, email is email format etc.) The page has HTML checks so that password is minimum 8 lengh, email is email-format. JavaScript is used to check that both password fields match, and that phone number matches a finnish phone number.</br><br>
 
 ## Live site
-GitHub Pages site: 
+GitHub Pages site: https://it-miez.github.io/Signup-page-project/
 </br></br>
 
 ## Technologies used
