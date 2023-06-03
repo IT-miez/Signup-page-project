@@ -1,0 +1,212 @@
+
+@font-face {
+    font-family: odinFont;
+    src: url("Norse-Bold.otf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    color: rgba(31, 30, 31, 0.849);
+    font-weight: lighter;
+}
+
+.site-container-row {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    width: 700px;
+}
+
+.uppertext {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    text-align: start;
+    justify-content: center;
+    padding-left: 40px;
+    gap: 20px;
+    width: 100%;
+    background-color: #E5E7EB;
+    align-self: flex-start;
+}
+
+.img-div {
+    display: flex;
+    flex: 1;
+    background-image: url("signup-sideimage.jpg");
+
+    background-size: cover;
+    max-width: 35vw;
+    min-width: 35vw;
+    height: 100vh;
+}
+
+.odin-logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48vh;
+    color: white;
+    width: 100%;
+}
+
+#odin-logo {
+    height: 100px;
+}
+
+.odin-background {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    opacity: 50%;
+    background-color: black;
+    padding-top: 5px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: odinFont;
+    text-align: center;
+}
+
+/*
+.img-div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url("signup-sideimage.jpg") no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+}
+*/
+.form-container-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /*margin-left: 5vw;*/
+    width: 100%;
+
+    /*gap: 50px;*/
+}
+
+img {
+    max-width: 25wv;
+}
+
+.form-div {
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+    width: 100%;
+    /*max-width: 100%;
+    min-width: 500px;*/
+
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    gap: 100px;
+
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.form-group-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.labelAndInput {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    padding: 5px
+}
+
+input {
+    min-width: 250px;
+    max-width: 300px;
+}
+
+input:invalid{
+    border-color: lightcoral;
+}
+
+#submitBtn {
+    align-items: start;
+}
+
+form {
+
+    width: 100%;
+    box-shadow:0 3px 10px rgba(68, 67, 67, 0.5);
+}
+
+fieldset {
+    font-family: Helvetica;
+    padding-left: 40px;
+    /*
+    border: 2px solid darkgray;
+    border-radius: 15px;
+    */
+}
+
+.fieldset-class {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    border: 0;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.last-div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    padding-left: 40px;
+
+    /*margin-left: 5px;*/
+}
+
+#submitBtn {
+    background-color: rgb(21, 137, 233);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
